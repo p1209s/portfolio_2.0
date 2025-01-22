@@ -47,10 +47,7 @@ nav ul li a:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-
-.purple {
-  color: rgb(170, 107, 288);
+  margin: 130px 0;
 }
 
 .firstSection > div {
@@ -59,6 +56,19 @@ nav ul li a:hover {
 
 .leftSection {
   font-size: 40px;
+}
+
+.leftSection .buttons {
+  padding: 50px 0;
+}
+.leftSection .btn {
+  padding: 12px;
+  background: #1e2167;
+  color: white;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-size: 20px;
+  cursor: pointer;
 }
 
 #element {
@@ -124,4 +134,13 @@ main hr {
   color: grey;
   width: 150px;
   font-size: 9px;
+}
+
+footer {
+  background-color: rgb(35, 0, 35);
+}
+
+.footer {
+  text-align: center;
+  padding: 20px 0;
 }
